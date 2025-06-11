@@ -1,4 +1,4 @@
-# 🍓 Raspberry Pi Projects Collection
+# Raspberry Pi Projects Collection
 
 A comprehensive collection of Raspberry Pi projects ranging from beginner-friendly tutorials to advanced IoT implementations. Each project includes detailed documentation, circuit diagrams, and complete source code.
 
