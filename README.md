@@ -6,6 +6,12 @@ A comprehensive collection of Raspberry Pi projects ranging from beginner-friend
 
 This repository serves as a centralized hub for various Raspberry Pi projects that demonstrate different aspects of hardware interfacing, sensor integration, automation, and IoT development. Whether you're a beginner looking to learn the basics or an experienced developer seeking inspiration, you'll find projects suited to your skill level.
 
+
+Projects are categorized by difficulty:
+
+- 🟢 **Beginner** - Basic GPIO control, simple sensors
+- 🟡 **Intermediate** - Multiple components, basic networking
+- 🔴 **Advanced** - Complex systems, IoT integration, machine learning
 - [x] - Done
 - [ ] - Yet to be done
 
@@ -111,14 +117,6 @@ Each project has its own directory with:
 cd project-name
 pip3 install -r requirements.txt
 ```
-
-## 🎓 Difficulty Levels
-
-Projects are categorized by difficulty:
-
-- 🟢 **Beginner** - Basic GPIO control, simple sensors
-- 🟡 **Intermediate** - Multiple components, basic networking
-- 🔴 **Advanced** - Complex systems, IoT integration, machine learning
 
 ## 🔧 Common Tools & Libraries
 
