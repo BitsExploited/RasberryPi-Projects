@@ -6,6 +6,9 @@ A comprehensive collection of Raspberry Pi projects ranging from beginner-friend
 
 This repository serves as a centralized hub for various Raspberry Pi projects that demonstrate different aspects of hardware interfacing, sensor integration, automation, and IoT development. Whether you're a beginner looking to learn the basics or an experienced developer seeking inspiration, you'll find projects suited to your skill level.
 
+- [x] - Done
+- [ ] - Yet to be done
+
 ## 🚀 Featured Projects
 ### 🌡️ Sensor Projects
 - [x] **[Temperature Monitor](./temp_sensor/)** 🟢 - Use a DHT11 sensor to read and display temperature & humidity on the terminal
@@ -23,11 +26,10 @@ This repository serves as a centralized hub for various Raspberry Pi projects th
 
 ### 🌐 IoT & Connectivity
 - [ ] **[Raspberry Pi Weather Station (API version)](./weather-station-api/)** 🟢 - Fetch and display real-time weather using an online API
-- [ ] **[Simple Web Server (Flask)](./flask-server/)** 🟢 - Serve a basic webpage and interact with buttons on your Pi
 - [ ] **[Network Speed Logger](./network-logger/)** 🟢 - Record internet speed hourly using Python and log to CSV
 - [ ] **[IoT Weather Station](./iot-weather/)** 🟡 - Push sensor data to the cloud (ThingSpeak / InfluxDB / MQTT)
 - [ ] **[Smart Doorbell with Camera](./smart-doorbell/)** 🟡 - Detect press, take photo, notify via Telegram/email
-- [ ] **[Pi as a VPN Server (WireGuard)](./vpn-server/)** 🟡 - Build a personal secure VPN you can connect to from anywhere
+- [x] **[Pi Hole](./pihole_setup/)** 🟡 - Build a personal Adblocker and configure it to your devices to block ads without using a Adblocker
 - [ ] **[Industrial IoT Gateway](./iot-gateway/)** 🔴 - Bridge Modbus (RS485) to MQTT for remote PLC monitoring
 - [ ] **[Mesh Network Communication System](./mesh-network/)** 🔴 - Use LoRa or ESP-NOW to connect multiple Pi units across distances
 
