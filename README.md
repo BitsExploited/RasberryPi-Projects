@@ -1,4 +1,4 @@
-# 🍓 Raspberry Pi Projects Collection
+# Raspberry Pi Projects Collection
 
 A comprehensive collection of Raspberry Pi projects ranging from beginner-friendly tutorials to advanced IoT implementations. Each project includes detailed documentation, circuit diagrams, and complete source code.
 
@@ -6,11 +6,19 @@ A comprehensive collection of Raspberry Pi projects ranging from beginner-friend
 
 This repository serves as a centralized hub for various Raspberry Pi projects that demonstrate different aspects of hardware interfacing, sensor integration, automation, and IoT development. Whether you're a beginner looking to learn the basics or an experienced developer seeking inspiration, you'll find projects suited to your skill level.
 
+
+Projects are categorized by difficulty:
+
+- 🟢 **Beginner** - Basic GPIO control, simple sensors
+- 🟡 **Intermediate** - Multiple components, basic networking
+- 🔴 **Advanced** - Complex systems, IoT integration, machine learning
+- [x] - Done
+- [ ] - Yet to be done
+
 ## 🚀 Featured Projects
 ### 🌡️ Sensor Projects
 - [x] **[Temperature Monitor](./temp_sensor/)** 🟢 - Use a DHT11 sensor to read and display temperature & humidity on the terminal
 - [ ] **[Motion Detector Alarm](./motion-detector/)** 🟢 - Use a PIR sensor to trigger a buzzer or LED when motion is detected
-- [ ] **[Plant Health Monitor](./plant-monitor/)** 🟡 - Interface soil moisture sensor, display health status
 - [ ] **[Air Quality Monitoring Device](./air-quality/)** 🟡 - Use sensors (MQ135, SDS011) to measure PM2.5 and CO2
 - [ ] **[Energy Monitoring Smart Meter](./energy-monitor/)** 🔴 - Read current/voltage from CT sensors and visualize data
 
@@ -18,16 +26,12 @@ This repository serves as a centralized hub for various Raspberry Pi projects th
 - [ ] **[Digital Clock with Python & Tkinter](./digital-clock/)** 🟢 - GUI-based clock application for local and UTC time
 - [ ] **[GPIO Button Counter](./button-counter/)** 🟢 - Count button presses and show count on an LCD
 - [ ] **[CPU Temp and Usage Dashboard](./system-dashboard/)** 🟢 - Create a local dashboard showing system stats using Bash/Python
-- [ ] **[Digital Photo Frame](./photo-frame/)** 🟡 - Pull images from Google Photos and display them in slideshow mode
 - [ ] **[Touchscreen Smart Mirror](./smart-mirror/)** 🟡 - Display weather, news, time on a reflective surface
 
 ### 🌐 IoT & Connectivity
 - [ ] **[Raspberry Pi Weather Station (API version)](./weather-station-api/)** 🟢 - Fetch and display real-time weather using an online API
-- [ ] **[Simple Web Server (Flask)](./flask-server/)** 🟢 - Serve a basic webpage and interact with buttons on your Pi
 - [ ] **[Network Speed Logger](./network-logger/)** 🟢 - Record internet speed hourly using Python and log to CSV
 - [ ] **[IoT Weather Station](./iot-weather/)** 🟡 - Push sensor data to the cloud (ThingSpeak / InfluxDB / MQTT)
-- [ ] **[Smart Doorbell with Camera](./smart-doorbell/)** 🟡 - Detect press, take photo, notify via Telegram/email
-- [ ] **[Pi as a VPN Server (WireGuard)](./vpn-server/)** 🟡 - Build a personal secure VPN you can connect to from anywhere
 - [ ] **[Industrial IoT Gateway](./iot-gateway/)** 🔴 - Bridge Modbus (RS485) to MQTT for remote PLC monitoring
 - [ ] **[Mesh Network Communication System](./mesh-network/)** 🔴 - Use LoRa or ESP-NOW to connect multiple Pi units across distances
 
@@ -40,7 +44,7 @@ This repository serves as a centralized hub for various Raspberry Pi projects th
 ### 🔐 Security & Surveillance
 - [ ] **[Raspberry Pi Surveillance System](./surveillance/)** 🟡 - Stream real-time video with motion detection using OpenCV
 - [ ] **[USB Security Key](./usb-security/)** 🟢 - Use a Pi Pico or Zero as a 2FA USB device
-- [ ] **[Pi-hole Setup](./pi-hole/)** 🟢 - Block ads and trackers on your network
+- [ ] **[Pi-hole Setup](./pihole_setup/)** 🟢 - Block ads and trackers on your network
 - [ ] **[Edge-based Face Recognition Attendance System](./face-recognition/)** 🔴 - Recognize and log faces locally without cloud dependency
 - [ ] **[Security Camera with ML Intruder Detection](./ml-security/)** 🔴 - Notify only when unusual activity is detected, reduce false positives
 
@@ -50,12 +54,6 @@ This repository serves as a centralized hub for various Raspberry Pi projects th
 - [ ] **[Mini Retro Gaming Console](./retro-gaming/)** 🟡 - Use RetroPie to emulate NES/SNES/GBA with USB controller
 - [ ] **[Voice Assistant (Offline)](./voice-assistant/)** 🟡 - Use Vosk or Picovoice to create a basic voice command system
 - [ ] **[Realtime Audio DSP](./audio-dsp/)** 🔴 - Process mic input and add effects in real-time (echo, filter, etc.)
-
-### 🤖 Robotics & AI
-- [ ] **[Self-Balancing Robot](./self-balancing-robot/)** 🔴 - Use MPU6050, motor drivers, and PID loops for real-time stability
-- [ ] **[Autonomous RC Car with Obstacle Avoidance](./autonomous-car/)** 🔴 - Integrate camera, lidar/ultrasonic sensors, and path planning
-- [ ] **[AI Object Detection System](./ai-detection/)** 🔴 - Use TensorFlow Lite or YOLOv5 on Pi + camera for real-time object detection
-- [ ] **[Neural Network Inference Accelerator](./nn-accelerator/)** 🔴 - Offload deep learning inferences using Coral USB or Intel NCS2
 
 ### 🔧 System Administration & Networking
 - [ ] **[Remote SSH Setup](./ssh-setup/)** 🟢 - Configure headless setup and learn the power of remote access
@@ -119,14 +117,6 @@ Each project has its own directory with:
 cd project-name
 pip3 install -r requirements.txt
 ```
-
-## 🎓 Difficulty Levels
-
-Projects are categorized by difficulty:
-
-- 🟢 **Beginner** - Basic GPIO control, simple sensors
-- 🟡 **Intermediate** - Multiple components, basic networking
-- 🔴 **Advanced** - Complex systems, IoT integration, machine learning
 
 ## 🔧 Common Tools & Libraries
 
