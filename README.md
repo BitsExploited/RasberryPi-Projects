@@ -30,7 +30,7 @@ Projects are categorized by difficulty:
 
 ### 🌐 IoT & Connectivity
 - [ ] **[Raspberry Pi Weather Station (API version)](./weather-station-api/)** 🟢 - Fetch and display real-time weather using an online API
-- [ ] **[Network Speed Logger](./network-logger/)** 🟢 - Record internet speed hourly using Python and log to CSV
+- [ ] **[Network Speed Logger](./network_logger/)** 🟢 - Record internet speed hourly using Python and log to CSV
 - [ ] **[IoT Weather Station](./iot-weather/)** 🟡 - Push sensor data to the cloud (ThingSpeak / InfluxDB / MQTT)
 - [ ] **[Industrial IoT Gateway](./iot-gateway/)** 🔴 - Bridge Modbus (RS485) to MQTT for remote PLC monitoring
 - [ ] **[Mesh Network Communication System](./mesh-network/)** 🔴 - Use LoRa or ESP-NOW to connect multiple Pi units across distances
